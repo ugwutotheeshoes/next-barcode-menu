@@ -9,14 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@createnextapp/react-barcode": "^1.1.1",
-    "@material-ui/core": "^4.12.4",
-    "jspdf": "^2.5.1",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-barcode": "^1.4.1",
-    "react-dom": "18.0.0",
-    "svg2pdf": "^1.1.1"
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
     "eslint": "8.12.0",
