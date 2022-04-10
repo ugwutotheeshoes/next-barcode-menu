@@ -3,7 +3,7 @@ import Barcode from "react-barcode";
 
 export default function Home() {
   const barcodeRef = useRef(null);
-  const [barcode, setBarcode] = useState("");
+  const [barcode, setBarcode] = useState("CODE128");
   const handleChange = (event) => {
     setBarcode(event.target.value ? event.target.value : "");
   };
